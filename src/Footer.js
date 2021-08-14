@@ -12,6 +12,11 @@ export function Footer() {
 
   return (
     <div>
+      <h3>About</h3>
+      <p className="about-p">
+        This App takes the total bill amount and cash given by a customer as
+        input and tell you how much change to return to the customer.
+      </p>
       <h2>Connect with me on</h2>
       <ul style={{ listStyle: "none", margin: "0", padding: "0" }}>
         <li style={list}>
